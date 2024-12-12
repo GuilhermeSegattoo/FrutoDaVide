@@ -7,10 +7,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Camp Travel",
-  description: "Travel UI/UX App for Camping",
+  title: "Davide",
+  description: "Decorações para ambientes inesquecíveis",
   icons:{
-    icon:'/camp.svg'
+    icon:'/FV.svg'
   }
 };
 
