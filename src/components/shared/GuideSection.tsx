@@ -33,7 +33,6 @@ export default function GuideSection() {
   return (
     <section id='sobre' className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/info.png" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-primary">Sobre nós</p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">

@@ -7,7 +7,8 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <h1 className="text-2xl font-normal">FrutoDa<span className="font-bold text-primary">Vide</span></h1>
+        <h1 className="text-2xl font-bold text-primary">Fruto Da Vide</h1>
+        <p className="text-xl font-medium text-primary">Decorações</p>
       </Link>
 
       <NavbarItem />

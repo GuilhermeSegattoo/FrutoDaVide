@@ -19,25 +19,16 @@ export default function GetAPPSection() {
             <Button
               type="button"
               title="Orçamento"
-              icon="/dollar.png"
               variant="btn_white"
               full
             />
             </Link>
-            <Link href={"https://wa.me/5561999821919"}>
-            <Button
-              type="button"
-              title="Contato"
-              icon="/whatsapp.png"
-              variant="btn_dark_green_outline"
-              full
-            />
-            </Link>
+           
           </div>
         </div>
 
         <div className="flex flex-1 items-center justify-end">
-          <Image src="/iphones.png" alt="phones" width={550} height={870} />
+          <Image src="/iphonesNirce.svg" alt="phones" width={550} height={870} />
         </div>
       </div>
     </section>

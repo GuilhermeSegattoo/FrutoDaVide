@@ -84,7 +84,7 @@ export default function HeroSection() {
   alt="star"
   width={870}
   height={650}
-  className="absolute top-28 right-10 z-10 w-full max-w-[870px] lg:w-[650px] xs:w-[300px]"
+  className="absolute top-28 right-10 z-10 w-full max-w-[870px] lg:w-[550px] lg:mt-[-200px] md:mr-[-250px] xs:w-[300px]"
 />
 
 

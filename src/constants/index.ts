@@ -12,32 +12,60 @@ export const NAV_LINKS = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Toalhas  & Lençóis',
+    title: 'Lençóis',
+    icon: '/cobertor.png',
+    variant: 'green',
+    description:
+      'Lençóis de alta qualidade para transformar o conforto de seus hóspedes.',
+  },
+  {
+    title: 'Toalhas',
     icon: '/book.png',
     variant: 'green',
     description:
-      'Toalhas macias e lençóis de alta qualidade para transformar o conforto de seus ambientes.',
+      'Toalhas macias de alta qualidade para aumentar o nível de conforto do seu hóspede.',
   },
   {
-    title: 'Roupas de Cama & Travesseiros',
-    icon: '/bed.png',
+    title: 'Enxovais',
+    icon: '/cm.png',
     variant: 'green',
     description:
-      "Criamos camas elegantes e aconchegantes com roupas de cama sob medida e travesseiros perfeitos.",
+      "Criamos camas elegantes e aconchegantes com roupas de cama sob medida.",
   },
   {
-    title: 'Cortinas & Persianas',
-    icon: '/cortina.png',
+    title: 'Travesseiros',
+    icon: '/travesseiros.png',
     variant: 'green',
     description:
-      'Cortinas e persianas sob medida para trazer o equilíbrio perfeito entre beleza e funcionalidade.',
+      "Travesseiros perfeitos com muito conforto.",
   },
   {
-    title: 'Bancadas & Sofás',
+    title: 'Cortinas',
+    icon: '/cort.png',
+    variant: 'green',
+    description:
+      'Cortinas sob medida para trazer o equilíbrio perfeito entre beleza e funcionalidade.',
+  },
+  {
+    title: 'Persianas',
+    icon: '/cego.png',
+    variant: 'green',
+    description:
+      'Persianas sob medida para seu apartamento ou flat.',
+  },
+  {
+    title: 'Bancadas',
+    icon: '/mesa-redonda.png',
+    variant: 'orange',
+    description:
+      'Soluções únicas para bancadas ao seu gosto.',
+  },
+  {
+    title: 'Sofás',
     icon: '/sofa.png',
     variant: 'orange',
     description:
-      'Soluções únicas para bancadas e sofás que combinam design e praticidade.',
+      'Sofás que combinam design e praticidade do ambiente.',
   },
 ];
 
