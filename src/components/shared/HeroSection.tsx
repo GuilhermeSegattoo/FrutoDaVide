@@ -48,46 +48,42 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start">
-  <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-primary px-7 py-8">
+      <div className="relative flex items-center justify-center w-full h-[650px] overflow-hidden">
+  {/* Imagem de Fundo */}
+  <Image
+    src="/backgroundHome.svg"
+    alt="star"
+    width={870}
+    height={650}
+    className="absolute rounded-3xl inset-0 w-full h-full object-cover"
+  />
 
+  {/* Conteúdo Centralizado */}
+  <div className="relative z-20 flex flex-col gap-8 rounded-3xl bg-primary/90 px-7 py-8 max-w-[300px] text-center">
     {/* Projetos Concluídos */}
     <div className="flex flex-col">
-      <div className="flexBetween">
-        <p className="regular-16 text-white">Projetos Concluídos</p>
-      </div>
-      <p className="bold-20 text-2xl text-white">150+</p>
+      <p className="regular-16 text-white">Projetos Concluídos</p>
+      <p className="bold-20 text-2xl text-white">1000+</p>
     </div>
 
     {/* Experiência e Clientes */}
-    <div className="flexBetween">
+    <div className="flex flex-col gap-4">
       <div className="flex flex-col">
-        <p className="regular-16 block text-white">Experiência no Mercado</p>
+        <p className="regular-16 text-white">Experiência no Mercado</p>
         <p className="bold-20 text-white">35 anos</p>
       </div>
       <div className="flex flex-col">
-        <p className="regular-16 block text-white">Apartamentos Decorados</p>
-        <p className="bold-20 text-white">500+</p>
+        <p className="regular-16 text-white">Apartamentos Decorados</p>
+        <p className="bold-20 text-white">5000+</p>
       </div>
     </div>
 
     {/* Clientes Satisfeitos */}
     <div className="flex flex-col">
-      <div className="flexBetween">
-        <p className="regular-16 block text-white">Clientes Satisfeitos</p>
-        <p className="bold-20 text-white">80+</p>
-      </div>
+      <p className="regular-16 text-white">Clientes Satisfeitos</p>
+      <p className="bold-20 text-white">200+</p>
     </div>
   </div>
-  <Image
-  src="/backgroundHome.svg"
-  alt="star"
-  width={870}
-  height={650}
-  className="absolute top-28 right-10 z-10 w-full max-w-[870px] lg:w-[550px] lg:mt-[-200px] md:mr-[-250px] xs:w-[300px]"
-/>
-
-
 </div>
 
     </section>
