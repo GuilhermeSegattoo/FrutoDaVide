@@ -8,15 +8,16 @@ import { Autoplay } from "swiper/modules";
 
 const ChristmasSection = () => {
   const messages = [
-    "🎄 te deseja um Feliz Natal e Boas Festas! 🎁",
-    "✨ Que seu Natal seja repleto de alegria! 🎅",
-    "🌟 Muita paz, amor e felicidade neste Natal! ❄️",
+    "🎆 Que o Ano Novo traga muita saúde e prosperidade! 🥂",
+  "🌟 Que 2024 seja um ano de grandes conquistas e realizações! 🎉",
+  "🥳 Que o Ano Novo seja repleto de momentos especiais e felicidade! 🎊",
+  "🍾 Que o novo ano seja brilhante e cheio de novas oportunidades! ✨",
   ];
 
   return (
-    <section className="bg-red-600 text-white py-10">
+    <section className="bg-primary text-white py-10">
       <div className="text-center text-3xl font-bold mb-6">
-        <h1>A Equipe Fruto da Vide</h1>
+        <h1>A Equipe Fruto da Vide deseja...</h1>
       </div>
       <Swiper
         modules={[Autoplay]}
